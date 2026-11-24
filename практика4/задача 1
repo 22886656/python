@@ -1,1 +1,7 @@
-hello world
+import math
+
+from attr.validators import matches_re
+
+x = float(input("введите число:"))
+
+print(math.floor(x) + math.ceil(x))
